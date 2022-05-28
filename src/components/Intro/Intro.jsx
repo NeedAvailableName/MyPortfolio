@@ -72,7 +72,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          {/* floatinDiv mein change hy dark mode ka */}
+          {/* floatinDiv */}
           <FloatinDiv img={thumbup} text1="Blockchain" text2="Developer" />
         </motion.div>
 

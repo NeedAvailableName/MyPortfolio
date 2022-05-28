@@ -9,11 +9,11 @@ import node from "../../img/node.png";
 import edx from "../../img/edx.jpg"
 import freshman from "../../img/freshman.png"
 import { themeContext } from "../../Context";
-const Portfolio = () => {
+const Certificates = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div className="portfolio" id="portfolio">
+    <div className="certi" id="certi">
       {/* heading */}
       <span style={{color: darkMode?'white': ''}}>Some Certificates</span>
 
@@ -22,7 +22,7 @@ const Portfolio = () => {
         spaceBetween={30}
         slidesPerView={3}
         grabCursor={true}
-        className="portfolio-slider"
+        className="certi-slider"
       >
         <SwiperSlide>
           <img src={js_basic} alt="" />
@@ -47,4 +47,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Certificates;
